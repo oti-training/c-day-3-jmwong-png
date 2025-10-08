@@ -45,8 +45,9 @@ int main() {
     printf("Updated: Name: %s, Grade: %d\n", student.name, student.grade);
 
     // Placeholder output
-    printf("Implement the TODOs to see correct output.\n");
-
+    if (student.grade == 90) {
+    	printf("Grade updated! ✓\n");
+    }
     return 0;
 }
 
