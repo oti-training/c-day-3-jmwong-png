@@ -20,8 +20,9 @@ int main() {
     // TODO: Implement the exercise here
     // Hint: Remember to use & for addresses and * for dereferencing. Declare a float, point to it, print value and address, modify via pointer, print again.
     float temp = 25.5; 
-    float *ptr = &temp; 
-    
+    float *ptr ;
+    ptr= &temp; 
+     
     printf("Value: %.1ff\n", *ptr);
     printf("Address: %pf\n", ptr); 
     
